@@ -24,9 +24,8 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
-        slab: ['Josefin Slab', ...defaultTheme.fontFamily.sans],
-        display: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
+        sans: ['Rubik', ...defaultTheme.fontFamily.sans],
+        display: ['Rubik', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         '2xl': '40rem',

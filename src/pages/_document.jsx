@@ -19,7 +19,8 @@ export default function Document(props) {
         />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Slab:wght@400;500;700&display=swap&family=Josefin+Sans:wght@500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Rubik+Mono+One&display=swap"
+          // family=Inter:wght@100..900&
         />
       </Head>
       <script
