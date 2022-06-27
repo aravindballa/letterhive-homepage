@@ -5,3 +5,7 @@
 #__next {
   min-height: 100%;
 }
+
+body * {
+  @apply text-slate-700;
+}
