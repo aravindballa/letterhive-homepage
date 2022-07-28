@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: 'cloudinary',
-    path: 'https://images.balla.dev',
+    path: 'https://images.balla.dev/upload/',
   },
 }
 

@@ -2,6 +2,7 @@ import { ExternalLinkIcon } from '@heroicons/react/solid'
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
+import Image from 'next/image'
 
 const wordOptions = ['permanent', 'SEO optimized', 'upto-date']
 
@@ -44,6 +45,15 @@ export function Hero() {
           <ExternalLinkIcon className="h-3 w-3 flex-none fill-amber-600 group-active:fill-current" />
           <span className="ml-3">Check out the demo</span>
         </ButtonLink>
+      </div>
+      <div className="relative mx-auto mt-1 aspect-[1024/768] w-[45rem] max-w-full overflow-hidden sm:w-auto lg:w-[60rem]">
+        <Image
+          src="/letterhive/hero-illustration-v1.png"
+          alt=""
+          layout="fill"
+          priority
+          sizes="(min-width: 1024px) 60rem, (min-width: 640px) 100vw, 45rem"
+        />
       </div>
     </Container>
   )
