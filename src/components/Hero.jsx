@@ -48,7 +48,7 @@ export function Hero() {
       </div>
       <div className="relative mx-auto mt-1 aspect-[1024/768] w-[45rem] max-w-full overflow-hidden sm:w-auto lg:w-[60rem]">
         <Image
-          src="/letterhive/hero-illustration-v1.png"
+          src="/letterhive/hero-illustration-v2.png"
           alt=""
           layout="fill"
           priority
