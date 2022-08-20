@@ -6,7 +6,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+import { Features } from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 import { HowItWorks } from '@/components/HowItWorks'
 
@@ -26,9 +26,9 @@ export default function Home() {
       <main>
         <Hero />
         <HowItWorks />
-        {/* <SecondaryFeatures />
+        <Features />
         <CallToAction />
-        <Testimonials />
+        {/* <Testimonials />
         <Pricing />
         <Faqs /> */}
       </main>
