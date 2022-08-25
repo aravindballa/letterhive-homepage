@@ -31,7 +31,7 @@ export function Hero() {
             {wordOptions[0]}
           </span>
         </span>{' '}
-        archive <br /> for your <br /> email newsletter.
+        home <br /> for your <br /> email newsletter.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Do a favour to your future subscribers by maintaining an archive of your
