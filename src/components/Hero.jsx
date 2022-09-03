@@ -3,6 +3,7 @@ import { ExternalLinkIcon } from '@heroicons/react/solid'
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Image from 'next/image'
+import { InformationCircleIcon } from '@heroicons/react/outline'
 
 const wordOptions = [
   'website',
@@ -50,6 +51,10 @@ export function Hero() {
           <ExternalLinkIcon className="h-3 w-3 flex-none fill-amber-600 group-active:fill-current" />
           <span className="ml-3">Check out the demo</span>
         </ButtonLink>
+      </div>
+      <div className="mt-10 flex items-center justify-center gap-2">
+        <InformationCircleIcon className="h-4 w-4 text-amber-500" />
+        Supports all newsletter platforms
       </div>
       <div className="relative mx-auto mt-1 aspect-[1024/768] w-[45rem] max-w-full overflow-hidden sm:w-auto lg:w-[60rem]">
         <Image
