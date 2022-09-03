@@ -33,7 +33,7 @@ export function CallToAction() {
             color="white"
             className="mt-12"
           >
-            Join the waitlist
+            Fill the waitlist form (&lt; 2min)
           </ButtonLink>
         </div>
       </Container>

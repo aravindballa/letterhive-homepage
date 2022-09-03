@@ -1,16 +1,25 @@
 import {
+  RefreshIcon,
   LightningBoltIcon,
   LockClosedIcon,
   SwitchHorizontalIcon,
   InboxInIcon,
+  TagIcon,
 } from '@heroicons/react/outline'
 
 import { Container } from '@/components/Container'
 
 const features = [
   {
+    name: 'Automatic Updates',
+    description: `As you send newsletters, the content of the website automatically updates so the visitors get your latest content, all time.`,
+    icon: (
+      <RefreshIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
+    ),
+  },
+  {
     name: 'Password protected archive',
-    description: `Let your premium members, or subscribers have a look at the complete archive.`,
+    description: `You may only let your premium members/subscribers have a look at the complete archive.`,
     icon: (
       <LockClosedIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),
@@ -23,6 +32,13 @@ const features = [
     ),
   },
   {
+    name: 'Tagging and Sorting',
+    description: `Organize and sort your content with relevant tags. You even get a URL, like <code>yoursite.com/tag/news</code>, for your tag listing all your emails under in.`,
+    icon: (
+      <TagIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
+    ),
+  },
+  {
     name: 'Switch newsletter service without hassle',
     description: `Maybe you want to switch from Substack to Convertkit for more power. Don’t let the fear loosing your archive stop you.`,
     icon: (
@@ -31,7 +47,7 @@ const features = [
   },
   {
     name: 'Import already sent newsletters',
-    description: `Chances are you already started your newsletter and sent a few emails.<br/>If you are using one of the supported services for import (Substack, Buttondown, Email Octopus, Revue, and more coming soon), you can get your past emails into the archive.`,
+    description: `Chances are you already started your newsletter and sent a few emails.<br/>If you are using one of the supported platforms for import (Substack, Buttondown, Email Octopus, Revue, and more coming soon), you can get your past emails into the website.`,
     icon: (
       <InboxInIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),

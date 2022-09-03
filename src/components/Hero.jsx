@@ -4,7 +4,11 @@ import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import Image from 'next/image'
 
-const wordOptions = ['permanent', 'SEO optimized', 'upto-date']
+const wordOptions = [
+  'website',
+  'SEO optimized blog',
+  'password potected archive',
+]
 
 export function Hero() {
   // const [tick, setTick] = useState(0)
@@ -17,7 +21,7 @@ export function Hero() {
   return (
     <Container className="min-h-[calc(100vh-120px)] pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl">
-        A{' '}
+        Get a{' '}
         <span className="relative whitespace-nowrap">
           <svg
             aria-hidden="true"
@@ -31,16 +35,17 @@ export function Hero() {
             {wordOptions[0]}
           </span>
         </span>{' '}
-        home <br /> for your <br /> email newsletter.
+        for your <br /> email newsletter.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Do a favour to your future subscribers by maintaining an archive of your
-        emails.
+        {/* Do a favour to your future subscribers by maintaining an archive of your
+        emails. */}
+        Don't let your emails be lost in subscribers' inboxes.
+        <br />
+        Create a website from your emails so that people can read it anytime!
       </p>
       <div className="mt-10 flex justify-center space-x-6">
-        <ButtonLink href="https://tally.so/r/nPl85n">
-          Join the waitlist
-        </ButtonLink>
+        <ButtonLink href="https://tally.so/r/nPl85n">Get Started</ButtonLink>
         <ButtonLink href="https://hackletter.letterhive.com" variant="outline">
           <ExternalLinkIcon className="h-3 w-3 flex-none fill-amber-600 group-active:fill-current" />
           <span className="ml-3">Check out the demo</span>
