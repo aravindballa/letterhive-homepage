@@ -41,7 +41,7 @@ export function Hero() {
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         {/* Do a favour to your future subscribers by maintaining an archive of your
         emails. */}
-        Don't let your emails be lost in subscribers' inboxes.
+        Don&rsquo;t let your emails be lost in subscribers&rsquo; inboxes.
         <br />
         Create a website from your emails so that people can read it anytime!
       </p>
