@@ -116,6 +116,13 @@ export function Header() {
                 </a>
               </Link>
             </li>
+            <li className="ml-12 hidden md:block">
+              <Link href="#showcase">
+                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  Showcase
+                </a>
+              </Link>
+            </li>
             {/* 
             <li className="ml-6 hidden md:block">
               <Link href="#testimonials">
