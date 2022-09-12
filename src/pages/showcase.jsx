@@ -3,14 +3,16 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Container } from '@/components/Container'
-import { ShowcaseCards } from '@/components/ShowcaseCards'
-import data from '@/components/showcaseData'
+import { ShowcaseCard } from '@/components/ShowcaseCard'
+import data from '@/data/showcase'
 
 export default function Showcase() {
   return (
     <>
       <Head>
-        <title>Letterhive - A permanent home for your email newsletter</title>
+        <title>
+          Showcase | Letterhive - A permanent home for your email newsletter
+        </title>
         <meta
           name="description"
           content="Preserve your email newsletters for your future subscribers. Don't just send and let them vanish."
@@ -18,18 +20,19 @@ export default function Showcase() {
       </Head>
       <Header />
       <main>
-        <Container className="relative">
+        <Container className="pb-14 sm:pb-16 sm:pt-16 lg:pb-32">
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className="mt-6 text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
+            <h2 className="mt-6 text-3xl font-bold text-gray-900 md:text-5xl">
               Websites built with{' '}
-              <span className="relative bg-gradient-to-br from-amber-500 to-yellow-500 bg-clip-text font-bold text-transparent">
+              <span className="bg-gradient-to-br from-amber-500 to-yellow-500 bg-clip-text font-bold text-transparent">
                 Letterhive
-              </span>{' '}
+              </span>
+              &nbsp;🍯{' '}
             </h2>
           </div>
           <ul className="mt-12 grid grid-cols-1 gap-16 sm:mt-16 md:grid-cols-2">
-            {data.blogs.map((item) => {
-              return <ShowcaseCards key={item.url} {...item} />
+            {data.map((item) => {
+              return <ShowcaseCard key={item.url} {...item} />
             })}
           </ul>
         </Container>
