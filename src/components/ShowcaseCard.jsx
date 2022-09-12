@@ -4,11 +4,13 @@ import Image from 'next/image'
 export function ShowcaseCard({ image_src, url, name, author }) {
   return (
     <li className="group relative transition-all duration-200 hover:-translate-y-1">
-      <div className="aspect-w-16 aspect-h-9 overflow-hidden rounded-xl border border-gray-200 shadow-xl">
-        <img
-          className="h-full w-full object-cover object-top"
+      <div className="relative aspect-video max-w-full overflow-hidden rounded-md border border-gray-200 shadow-md">
+        <Image
+          className=""
           src={image_src}
           alt={`Screenshot for ${name} newsletter`}
+          layout="fill"
+          unoptimized
         />
       </div>
       <div className="mt-3 flex items-start justify-between space-x-6">
@@ -19,7 +21,7 @@ export function ShowcaseCard({ image_src, url, name, author }) {
           <h3 className="text-[#616161]">{`By ${author}`}</h3>
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             href={url}
             className="flex items-center space-x-1 text-slate-900"
           >

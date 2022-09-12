@@ -20,7 +20,7 @@ export default function Showcase() {
       </Head>
       <Header />
       <main>
-        <Container className="pb-14 sm:pb-16 sm:pt-16 lg:pb-32">
+        <Container className="my-14 sm:my-16">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="mt-6 text-3xl font-bold text-gray-900 md:text-5xl">
               Websites built with{' '}
