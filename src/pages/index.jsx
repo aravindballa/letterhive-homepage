@@ -9,15 +9,12 @@ import { Pricing } from '@/components/Pricing'
 import { Features } from '@/components/Features'
 import { Testimonials } from '@/components/Testimonials'
 import { HowItWorks } from '@/components/HowItWorks'
-// import { Showcase2 } from '@/components/Showcase2'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Letterhive - A permanent home for your email newsletter
-        </title>
+        <title>Letterhive - A permanent home for your email newsletter</title>
         <meta
           name="description"
           content="Preserve your email newsletters for your future subscribers. Don't just send and let them vanish."
