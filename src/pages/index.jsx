@@ -14,9 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Letterhive - A permanent home for your email newsletter
-        </title>
+        <title>Letterhive - A permanent home for your email newsletter</title>
         <meta
           name="description"
           content="Preserve your email newsletters for your future subscribers. Don't just send and let them vanish."
