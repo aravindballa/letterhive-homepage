@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { InformationCircleIcon } from '@heroicons/react/outline'
 
 const wordOptions = [
-  'website',
+  'public inbox',
   'SEO optimized blog',
   'password potected archive',
 ]
@@ -22,7 +22,7 @@ export function Hero() {
   return (
     <Container className="min-h-[calc(100vh-120px)] pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl">
-        Get a{' '}
+        A{' '}
         <span className="relative whitespace-nowrap">
           <svg
             aria-hidden="true"
@@ -36,20 +36,22 @@ export function Hero() {
             {wordOptions[0]}
           </span>
         </span>{' '}
-        for your <br /> email newsletter.
+        for <br /> your email newsletter.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         {/* Do a favour to your future subscribers by maintaining an archive of your
         emails. */}
-        Don&rsquo;t let your emails be lost in subscribers&rsquo; inboxes.
+        Don&rsquo;t let your emails get lost after you send.
         <br />
         Create a website from your emails so that people can read it anytime!
       </p>
       <div className="mt-10 flex justify-center space-x-6">
-        <ButtonLink href="https://tally.so/r/nPl85n">Get Started</ButtonLink>
-        <ButtonLink href="https://hackletter.letterhive.com" variant="outline">
+        <ButtonLink href="https://tally.so/r/nPl85n">
+          Join the waitlist
+        </ButtonLink>
+        <ButtonLink href="/showcase" variant="outline">
           <ExternalLinkIcon className="h-3 w-3 flex-none fill-amber-600 group-active:fill-current" />
-          <span className="ml-3">Check out the demo</span>
+          <span className="ml-3">Checkout the showcase</span>
         </ButtonLink>
       </div>
       <div className="mt-10 flex items-center justify-center gap-2">
