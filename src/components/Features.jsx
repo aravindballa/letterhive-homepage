@@ -5,6 +5,7 @@ import {
   SwitchHorizontalIcon,
   InboxInIcon,
   TagIcon,
+  ChartBarIcon,
 } from '@heroicons/react/outline'
 
 import { Container } from '@/components/Container'
@@ -25,6 +26,13 @@ const features = [
     ),
   },
   {
+    name: 'Built-in Analytics',
+    description: `We have privacy friendly analytics built-in. You can see how many people are reading your blog posts and how they are finding them.`,
+    icon: (
+      <ChartBarIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
+    ),
+  },
+  {
     name: 'Fully SEO optimized',
     description: `You get a SEO friendly website with accurate metadata along with Open Graph data, RSS and sitemaps.`,
     icon: (
@@ -32,14 +40,14 @@ const features = [
     ),
   },
   {
-    name: 'Tagging and Sorting',
+    name: 'Tags and Sorting',
     description: `Organize and sort your posts with relevant tags.`,
     icon: (
       <TagIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),
   },
   {
-    name: 'Switch newsletter service without hassle',
+    name: 'Switch your newsletter platform without hassle',
     description: `Maybe you want to switch from Substack to Convertkit for more power. Don’t let the fear loosing your archive stop you.`,
     icon: (
       <SwitchHorizontalIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
@@ -47,7 +55,7 @@ const features = [
   },
   {
     name: 'Import already sent newsletters',
-    description: `Chances are you already started your newsletter and sent a few emails.<br/>If you are using one of the supported platforms for import (Substack, Buttondown, Email Octopus, Revue, and more coming soon), you can import your past emails into the blog.`,
+    description: `If you are using one of the supported platforms for import (Substack, Buttondown, Email Octopus, Revue, and more coming soon), you can import your past emails into the blog.`,
     icon: (
       <InboxInIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),

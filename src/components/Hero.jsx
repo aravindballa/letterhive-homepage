@@ -7,7 +7,7 @@ import { InformationCircleIcon } from '@heroicons/react/outline'
 
 const wordOptions = ['SEO friendly', 'customizable', 'password potected']
 
-export function Hero() {
+export function Hero({ newsletterPlatform }) {
   // const [tick, setTick] = useState(0)
   // const word = useMemo(() => wordOptions[tick % wordOptions.length], [tick])
 
@@ -32,7 +32,13 @@ export function Hero() {
           </span>
         </span>{' '}
         blog <br />
-        from your newsletter.
+        from your
+        {newsletterPlatform ? (
+          <>
+            <br /> {newsletterPlatform}
+          </>
+        ) : null}{' '}
+        newsletter.
       </h1>
       <p className="subheadding mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Enough of copy-pasting your newsletter into a blog post.
