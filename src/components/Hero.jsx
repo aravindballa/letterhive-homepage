@@ -5,11 +5,7 @@ import { Container } from '@/components/Container'
 import Image from 'next/image'
 import { InformationCircleIcon } from '@heroicons/react/outline'
 
-const wordOptions = [
-  'public inbox',
-  'SEO optimized blog',
-  'password potected archive',
-]
+const wordOptions = ['SEO friendly', 'customizable', 'password potected']
 
 export function Hero() {
   // const [tick, setTick] = useState(0)
@@ -22,7 +18,6 @@ export function Hero() {
   return (
     <Container className="min-h-[calc(100vh-120px)] pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl">
-        A{' '}
         <span className="relative whitespace-nowrap">
           <svg
             aria-hidden="true"
@@ -36,14 +31,13 @@ export function Hero() {
             {wordOptions[0]}
           </span>
         </span>{' '}
-        for <br /> your email newsletter.
+        blog <br />
+        from your newsletter.
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        {/* Do a favour to your future subscribers by maintaining an archive of your
-        emails. */}
-        Don&rsquo;t let your emails get lost after you send.
+      <p className="subheadding mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+        Enough of copy-pasting your newsletter into a blog post.
         <br />
-        Create a website from your emails so that people can read it anytime!
+        When you send out your newsletter, a blog post is created automatically.
       </p>
       <div className="mt-10 flex justify-center space-x-6">
         <ButtonLink href="https://tally.so/r/nPl85n">

@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Letterhive - A public inbox for your newsletter</title>
+        <title>Letterhive - A Blog for your Newsletter</title>
         <meta
           name="description"
-          content="Preserve your newsletter emails for your future subscribers. Don't just send and let them vanish."
+          content="Turn your newsletter into a SEO friendly blog."
         />
       </Head>
       <Header />

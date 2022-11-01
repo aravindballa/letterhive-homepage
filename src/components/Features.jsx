@@ -12,28 +12,28 @@ import { Container } from '@/components/Container'
 const features = [
   {
     name: 'Automatic Updates',
-    description: `As you send newsletters, the content of the website automatically updates so the visitors get your latest content, all time.`,
+    description: `As you send newsletters, blog posts are automatically created so the visitors get your latest content, all time.`,
     icon: (
       <RefreshIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),
   },
   {
-    name: 'Password protected archive',
-    description: `You may only let your premium members/subscribers have a look at the complete archive.`,
+    name: 'Password protected',
+    description: `You may only let your premium members/subscribers have a look at the posts in your blog.`,
     icon: (
       <LockClosedIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),
   },
   {
     name: 'Fully SEO optimized',
-    description: `What’s stopping your newsletter from becoming a blog? You get a SEO friendly website with accurate metadata along with RSS and sitemaps.`,
+    description: `You get a SEO friendly website with accurate metadata along with Open Graph data, RSS and sitemaps.`,
     icon: (
       <LightningBoltIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),
   },
   {
     name: 'Tagging and Sorting',
-    description: `Organize and sort your content with relevant tags. You even get a URL, like <code>yoursite.com/tag/news</code>, for your tag listing all your emails under in.`,
+    description: `Organize and sort your posts with relevant tags.`,
     icon: (
       <TagIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),
@@ -47,7 +47,7 @@ const features = [
   },
   {
     name: 'Import already sent newsletters',
-    description: `Chances are you already started your newsletter and sent a few emails.<br/>If you are using one of the supported platforms for import (Substack, Buttondown, Email Octopus, Revue, and more coming soon), you can get your past emails into the website.`,
+    description: `Chances are you already started your newsletter and sent a few emails.<br/>If you are using one of the supported platforms for import (Substack, Buttondown, Email Octopus, Revue, and more coming soon), you can import your past emails into the blog.`,
     icon: (
       <InboxInIcon className="h-8 w-8 rounded-full bg-amber-200 stroke-amber-800 p-2" />
     ),

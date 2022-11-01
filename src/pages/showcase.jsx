@@ -23,7 +23,7 @@ export default function Showcase() {
         <Container className="my-14 sm:my-16">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="mt-6 text-3xl font-bold text-gray-900 md:text-5xl">
-              Websites built with{' '}
+              Blogs built with{' '}
               <span className="bg-gradient-to-br from-amber-500 to-yellow-500 bg-clip-text font-bold text-transparent">
                 Letterhive
               </span>
