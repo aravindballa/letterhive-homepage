@@ -3,7 +3,7 @@ const data = [
     name: 'Hackletter',
     author: 'Aravind Balla',
     url: 'https://hackletter.letterhive.com',
-    image_src: '/showcase/hackletter.png',
+    image_src: '/showcase/hackletter.jpg',
   },
   {
     name: 'Cognition',
