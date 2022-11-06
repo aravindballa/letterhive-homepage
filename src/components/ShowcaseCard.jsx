@@ -10,6 +10,7 @@ export function ShowcaseCard({ image_src, url, name, author }) {
           src={image_src}
           alt={`Screenshot for ${name} newsletter`}
           layout="fill"
+          objectFit="cover"
           unoptimized
         />
       </div>
